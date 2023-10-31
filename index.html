@@ -29,11 +29,11 @@
                 </a>
                 <nav class="menu">
                     <ul>
-                        <a href="#"><li>Home</li></a>
-                        <a href="#our-story"><li>About</li></a>
-                        <a href="#our-capabilities"><li>Services</li></a>
-                        <a href="#"><li>Work</li></a>
-                        <a href="#contact"><li>Contact</li></a>
+                        <a class="mark" href="#"><li>Home</li></a>
+                        <a class="mark" href="#our-story"><li>About</li></a>
+                        <a class="mark" href="#our-capabilities"><li>Services</li></a>
+                        <a class="mark" href="#"><li>Work</li></a>
+                        <a class="mark" href="#contact"><li>Contact</li></a>
                     </ul>
                 </nav>
                 <button class="burger"><img src="./icons/hamburger-menu.svg" alt="Кнопка бургера"></button>
@@ -113,7 +113,18 @@
     <div class="section black copyright">
         <p class="authors">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
     </div>
-    
-    
+    <div class="mobile-menu d-none">
+        <nav class="mobile-nav">
+            <img src="./icons/logo-black.png" alt="logo">
+            <a class="mark" href="#">Home</a>
+            <a class="mark" href="#our-story">About</a>
+            <a class="mark" href="#our-capabilities">Services</a>
+            <a class="mark" href="#">Work</a>
+            <a class="mark" href="#contact">Contact</a>
+        </nav>
+        <button class="close-btn mark"><img src="./icons/close.svg" alt="Кнопка закрытия">
+        </button>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
