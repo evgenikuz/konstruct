@@ -10,7 +10,7 @@ body {
 }
 .top {
     background: url(./img/bg-top.jpg) no-repeat center/cover;
-    height: 769px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +56,7 @@ h1 {
     position: sticky;
     top: 0;
     background-color: #FFF;
+    z-index: 1;
 }
 .header {
     display: flex;
@@ -146,9 +147,6 @@ h2 {
     flex-direction: column;
 }
 .right-side {
-    /* display: flex;
-    flex-wrap: wrap;
-    max-width: 459px; */
     display: grid;
     grid-template-columns: repeat(3, 140px);
     gap: 12px;
@@ -157,7 +155,7 @@ h2 {
 }
 .img-container {
     height: 209px;
-    max-width: 126px;
+    max-width: 140px;
     padding-left: 14px;
     padding-top: 15px;
 }
@@ -187,15 +185,8 @@ a:hover .img-container {
     letter-spacing: 0.188px;
     text-transform: uppercase;
     margin:0;
-    /* margin-left: 14px;
-    margin-top:15px;
-    margin-right: 60px; */
 }
-/* .manage .img-text {
-    /* margin-right: 18px; 
-} */
 .img-link {
-    /* height: 224px; */
     text-decoration: none;
 }
 #our-capabilities {
