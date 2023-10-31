@@ -67,7 +67,10 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-between;
-    width: 378px;
+}
+.menu{
+    width: 100%;
+    max-width: 378px;
 }
 .menu a {
     text-decoration: none;
@@ -172,6 +175,7 @@ a:hover .img-container {
     flex-direction: column;
     margin-top: 128px;
     margin-bottom: 154px;
+    flex-wrap: wrap;
 }
 .cap-header {
     display: flex;
@@ -187,6 +191,7 @@ a:hover .img-container {
     letter-spacing: 0.2px;
     margin: 0 31.6px 0 150px;
     max-width: 405px;
+    width:100%;
     flex-grow: 0;
 }
 .all-services-btn {
