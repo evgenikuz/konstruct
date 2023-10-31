@@ -190,7 +190,6 @@ a:hover .img-container {
     flex-grow: 0;
 }
 .all-services-btn {
-    flex-grow: 0;
     color: #FFF;
     background-color:#00A4E5;
     text-align: center;
@@ -218,7 +217,6 @@ a:hover .img-container {
     gap: 27px;
 }
 .card {
-
     border: 1px solid #E6E6E6;
     padding: 38px 22px;
     height: 254px;
@@ -271,6 +269,7 @@ h3 {
     transform: scale(1.1);
 }
 .black {
+    border: 1px solid black;
     background-color: black;
     height: 100px;
     display: flex;
@@ -289,6 +288,7 @@ h3 {
 }
 .content {
     display: flex;
+    flex-wrap:wrap;
     max-width: 685px;
 }
 .content p {
